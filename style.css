@@ -18,15 +18,33 @@ body {
 
 .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
 }
 
 /*____HEADER____*/
 
 .header {
     margin: 50px;
-    margin-bottom: 0;
+    padding: 15px;
     
+}
+
+.img-box {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.img-box img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .title-name {
@@ -41,11 +59,27 @@ body {
     font-weight: 400;
 }
 
-
 /*____MAIN____*/
 
 .main {
     margin: 0 50px;
+}
+
+.information {
+    width: 40%;
+}
+
+.contacts {
+    margin: 10px;
+    font-weight: 700;
+}
+
+.about {
+    width: 60%;
+}
+
+.about-me {
+    font-weight: 700;
 }
 
 /*____FOOTER____*/
