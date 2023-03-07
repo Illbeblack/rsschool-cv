@@ -1,0 +1,51 @@
+* {
+    font-family: 'Domine', serif;
+    padding: 0px;
+	margin: 0px;
+	border: none;
+} 
+
+body {
+    background-color: darkolivegreen;
+}
+
+.body-container {
+    max-width: 1190px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.5);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*____HEADER____*/
+
+.header {
+    margin: 50px;
+    margin-bottom: 0;
+    
+}
+
+.title-name {
+    text-align: center;
+
+    font-weight: 700;
+}
+
+.dream-job {
+    text-align: center;
+
+    font-weight: 400;
+}
+
+
+/*____MAIN____*/
+
+.main {
+    margin: 0 50px;
+}
+
+/*____FOOTER____*/
