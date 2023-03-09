@@ -16,20 +16,6 @@ body {
     box-shadow: 0 35px 55px rgba(0,0,0,0.5);
 }
 
-.container {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-}
-
-li {
-margin-top: 10px;
-}
-
-p {
-    margin-top: 10px;
-}
-
 /*____HEADER____*/
 
 .header {
@@ -60,43 +46,10 @@ p {
 
 .title-name {
     text-align: center;
-
     font-weight: 700;
 }
 
 .dream-job {
     text-align: center;
-
     font-weight: 400;
 }
-
-/*____MAIN____*/
-
-.main {
-    margin: 0 50px;
-}
-
-.information {
-    width: 30%;
-}
-
-.contacts {
-    margin: 10px;
-    font-weight: 700;
-}
-
-.about {
-    width: 60%;
-}
-
-.about-me {
-    font-weight: 700;
-}
-
-.code-example {
-    margin-top: 10px;
-    font-weight: 700;
-}
-
-
-/*____FOOTER____*/
