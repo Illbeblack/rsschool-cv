@@ -1,1 +1,1 @@
-https://Illbeblack.github.io/rsschool-cv/cv
+https://Illbeblack.github.io/rsschool-cv/
