@@ -13,14 +13,12 @@
 <body>
     <section class="body-container">
         <header class="header">
-            <div class="container">
-                <div class="img-box">
-                    <img src="./assets/img.jpg" alt="my-photo">
-                </div>
-                <div class="header-title">
-                    <h1 class="title-name">SHVARTS DENIS</h1>
-                    <h4 class="dream-job">Junior Front End Web Developer</h4>
-                </div>
+            <div class="img-box">
+                <img src="./assets/img.jpg" alt="my-photo">
+            </div>
+            <div class="header-title">
+                <h1 class="title-name">SHVARTS DENIS</h1>
+                <h4 class="dream-job">Junior Front End Web Developer</h4>
             </div>
         </header>
         <main class="main">
@@ -71,6 +69,39 @@
                 <p>I started my career as a professional trumpet player. I have performed like solo and orchestra musician. I have also been a music teacher for ten years. But health problems made me think about changing my live, profession and about a job that I would have enjoyed as much as playing the trumpet.</p>
                 <p>I became interested in learning Frontend Development. This profession interested me with its prospects, importance in the modern world, ability to create something, huge amount of public information and an incredible community.</p>
                 <p>I believe that my teaching experience and responsible approach to work will help me in learning and becoming a proficient Frontend Developer.</p>
+                <h3 class="code-example">Code example</h3>
+                <p><code class="code">
+                    const zeroFuel = (distanceToPump, mpg, fuelLeft) => { <Br>
+                    let ourDistance = mpg * fuelLeft;<Br>
+                    if(ourDistance >= distanceToPump){<Br>
+                    return true;<Br>
+                    }<Br>
+                    else {<Br>
+                    return false;<Br>
+                    }<Br>
+                }
+                </code></p>
+                <p><code class="code">
+                    function showTime() {<Br>
+                    let time = new Date();<Br>
+                
+                    //  TIME<Br>
+                    let clockString = time.toLocaleTimeString('ru-RU');<Br>
+                    clock.textContent = clockString;<Br>
+                
+                    //  DATE<Br>
+                    let options = {<Br>
+                        weekday: 'long',<Br>
+                        month: 'long',<Br>
+                        day: 'numeric',<Br>
+                    }<Br>
+                    let dateString = time.toLocaleDateString('en-EN', options);<Br>
+                    date.textContent = dateString;<Br>
+                
+                    //  TIMEOUT<Br>
+                    setTimeout(showTime, 1000);<Br>
+                }
+            </code></p>
             </div>
         </div>
         </main>
